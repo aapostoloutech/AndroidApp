@@ -1,14 +1,24 @@
 package com.codehub.myapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AbstractActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    void initialize() {
+
+    }
+
+    @Override
+    void running() {
+
+    }
+
+    @Override
+    void stopped() {
+
+    }
+
+    @Override
+    void destroy() {
+
     }
 }
